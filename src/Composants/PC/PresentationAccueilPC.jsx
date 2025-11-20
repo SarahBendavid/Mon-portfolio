@@ -1,0 +1,44 @@
+import React from "react";
+import { useTranslation, Trans } from "react-i18next";
+import photoCv from "../../assets/images/photoCv.jpg";
+import cadre from "../../assets/images/cadre.svg";
+
+import postitNomFR from "../../assets/images/postite-nom.svg";
+import postitMetierFR from "../../assets/images/postite-metier.svg";
+import postitNomEN from "../../assets/images/postite-nom-english.svg";
+import postitMetierEN from "../../assets/images/postite-metier-english.svg";
+
+export default function PresentationPC() {
+  const { t, i18n } = useTranslation();
+
+  const postitNom = i18n.language === "fr" ? postitNomFR : postitNomEN;
+  const postitMetier = i18n.language === "fr" ? postitMetierFR : postitMetierEN;
+
+  const lang = i18n.language;
+
+  return (
+    <main>
+
+      <p className="introduction">{t("presentation.intro")}</p>
+      
+        <div className={`decor-1 decor-${lang}`}>
+        <img src={postitNom} alt="postit nom" className="postit1" />
+        </div>
+
+        <div className={`decor-2 decor-${lang}`}>
+        <img src={postitMetier} alt="postit métier" className="postit2" />
+        </div>
+
+        <div className="divImg">
+        <img className="photoCv" src={photoCv} alt="photoCv" />
+        <img src={cadre} alt="cadre" className="cadre" />
+        </div>
+
+      <h1>{t("presentation.title")}</h1>
+
+      <p className="presentation">
+        <Trans i18nKey="presentation.textWithBr" components={{ br: <br /> }} />
+      </p>
+    </main>
+  );
+}

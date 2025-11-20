@@ -1,0 +1,579 @@
+
+.projet-page html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  
+  color: rgb(243, 162, 124);
+}
+  
+  /* HEADER */
+ 
+ .projet-page .header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  min-height: 200px;
+  box-sizing: border-box;
+}
+
+/* Forme en V */
+.vShape {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(243, 162, 124);
+  clip-path: polygon(0 0, 100% 0, 50.2% 48%);
+  z-index: 1;
+}
+
+.navBar {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* deux côtés équilibrés autour du logo */
+  align-items: center;
+  justify-items: center;
+  z-index: 3;
+  pointer-events: auto;
+  font-family: "Edu NSW ACT Hand Cursive", cursive;
+}
+
+.monNavLink {
+  color: black;
+  font-weight: bold;
+  font-size: clamp(16px, 2vw, 22px);
+  text-decoration: none;
+  margin: 0;
+  white-space: nowrap;
+  justify-self: center;
+}
+
+.projet-page .logo {
+  justify-self: center;
+}
+
+.projet-page .losangeFR img, 
+.projet-page .losangeEN img { 
+  width: 65%; 
+  height: auto; 
+  transform: rotate(-45deg); 
+  }
+
+.projet-page .losangeFR,
+.projet-page .losangeEN {
+  width: clamp(78px, 10vw, 110px);
+  aspect-ratio: 1 / 1;
+  background: rgb(143, 130, 137);
+  border: 4px solid #333;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.projet-page .language-switcher {
+  position: relative;
+  top: 80px;   
+  left: 30px;   
+  z-index: 3;   
+}
+
+.projet-page .language-switcher .btn {
+  background-color: #f3a27c; 
+  color: black;             
+  border: none;
+}
+
+.projet-page .language-switcher .btn i {
+  margin-right: 6px; 
+}
+
+.projet-page .dropdown-menu {
+  position: absolute;
+  background: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projet-page .dropdown-item {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Media Queries */
+@media (max-width: 1300px) {
+
+  .projet-page .header { 
+    height: 280px; 
+  }
+
+  .vShape { 
+    clip-path: polygon(0 0, 100% 0, 50% 48%); }
+
+  .navBar { 
+    top: 25%; 
+    gap: 36px; }
+
+  .projet-page .losangeFR, 
+  .projet-page .losangeEN 
+  { 
+    width: 100px;
+    height: 100px; 
+    margin-top: 4px; 
+  }
+
+  .monNavLink { font-size: 20px; }
+}
+
+@media (max-width: 1000px) {
+
+  .projet-page.header { 
+    height: 225px; 
+  }
+
+  .vShape { 
+    clip-path: polygon(0 0, 100% 0, 50% 46%); 
+  }
+
+  .navBar { 
+    top: 19%; 
+    gap: 28px; 
+  }
+
+  .projet-page .losangeFR, 
+  .projet-page .losangeEN { 
+    width: 93px;
+    height: 93px;
+    margin-top: 28px;
+  }
+
+  .monNavLink { 
+    font-size: 16px; }
+}
+
+@media (max-width: 850px) {
+  .projet-page .language-switcher {
+    top: 100px;  
+    left: 30px;               
+  }
+
+  .projet-page.language-switcher .btn {
+    font-size: 0.8rem;  
+    padding: 4px 8px;   /
+  }
+
+  .projet-page.language-switcher .btn i {
+    font-size: 0.9rem;  
+    margin-right: 4px;
+  }
+}
+ /* FIN HEADER */
+
+/* MAIN */
+
+p{
+  font-family: "calibri";
+  color: black;
+  text-align: justify;
+}
+
+.introduction {
+  color: rgb(243, 162, 124);
+  text-align: center;
+  font-size: 17px;
+  margin-top: -110px;
+  margin-left: 31px;
+  margin-right: 31px;
+  text-align: justify;
+}
+
+/* Conteneur */
+.projets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center; 
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.cell {
+  position: relative;        
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: rgb(243, 162, 124);
+  min-width: 0;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;                
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+  padding-inline: 18px;  
+  padding-top: 0 !important;           
+  box-sizing: border-box;    
+  background: rgb(243, 162, 124);
+  transition: opacity 0.4s ease;
+  opacity: 1;
+  gap: 0.4rem;
+}
+
+.overlay h3,
+.overlay .date,
+.overlay .desc,
+.overlay .desc9 {
+  margin: 0;                 
+  padding: 0;
+  line-height: 1.3;
+}
+
+.overlay h3 {
+  font-size: 5.3vh;
+  color: black;
+  font-weight: bold;
+}
+
+.overlay .date {
+  font-size: 0.95rem;
+}
+
+.overlay .desc,
+.overlay .desc9 {
+  font-size: 5vh;
+}
+
+.desc9 {
+    text-align: left !important;
+  }
+
+/* Image invisible au départ */
+.cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* Lien autour de l’image */
+.cell a {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.cell:hover .overlay {
+  opacity: 0;
+}
+.cell:hover img {
+  opacity: 1;
+}
+
+/* Responsive */
+
+@media (max-width: 756px) {
+  .overlay h3 {
+  font-size: 17px;
+  }
+
+  .overlay .desc, .overlay .desc9 {
+    font-size: 3.3vh;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .introduction {
+    font-size: 15px;
+  }
+  
+  .projets { 
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .overlay .desc, 
+  .overlay .desc9 {
+    font-size: 14px;
+  }
+  .overlay .date {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 645px) {
+  .overlay .desc, 
+  .overlay .desc9 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 528px) {
+  .introduction {
+    font-size: 13px;
+  }
+
+  .overlay h3 {
+    font-size: 15px;
+  }
+
+  .overlay .date {
+    font-size: 10px;
+  }
+}
+
+/* FIN MAIN */
+
+/* FOOTER */
+
+.projet-page footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(12px, 2.5vw, 40px);
+  padding: 22px clamp(16px, 4vw, 60px);
+  box-sizing: border-box;
+  background-color: rgb(243, 162, 124);
+  height: auto;      
+  min-height: 140px; 
+  flex-wrap: nowrap; 
+  flex-shrink: 0;
+  margin-bottom : -5vw;
+}
+
+.projet-page footer > .bloc-gauche {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* ✅ centré verticalement dans le footer */
+  justify-content: flex-start;
+  gap: 18px;
+  align-self: center; 
+  color: black
+}
+
+.projet-page footer > .titre2,
+.projet-page footer > .logo-footer {
+  flex: 0 0 auto; 
+}
+.projet-page .titre2 {
+  display: flex;
+  align-items: center;
+  font-family: "Brush Script MT", cursive;
+  height: 100%;
+}
+
+.projet-page .titre2,
+.projet-page .coordonees {
+  display: flex;          
+  align-items: center;    
+  align-self: center;     
+  height: auto;           
+}
+
+.projet-page .titre2 h2 {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.projet-page .coordonees {
+  font-family: "Times New Roman", serif;
+}
+
+.projet-page .logo-footer .losange {
+  width: clamp(60px, 8vw, 110px);
+  height: clamp(60px, 8vw, 110px);
+  background: rgb(143, 130, 137);
+  border: 4px solid #333;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-right: clamp(8px, 4vw, 60px); 
+}
+
+.projet-page .logo-footer .losange img {
+  width: 72%;
+  height: auto;
+  transform: rotate(-45deg);
+  display: block;
+}
+
+/* Ajustements internes */
+.projet-page .coordonees {
+  font-family: "Time-new-roman";
+  font-size: clamp(13px, 1.4vw, 15px);
+  margin-top: 6px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.projet-page .liens {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 0;
+  align-content: center;
+  padding-top: 2vw;
+}
+
+.projet-page .liens a, .liens-legaux {
+  text-align: right;
+  font-size: 2.5vh;
+  color: black;
+}
+
+/* Réseaux sociaux */
+.projet-page .reseaux { 
+  display:flex; 
+  gap:12px; 
+}
+.projet-page .reseaux img { 
+  width: clamp(40px, 5.2vw, 55px); height: auto; 
+  border-radius:50%; 
+}
+
+/* Copyright */
+.projet-page .copyright { 
+  font-size: 2.2vh; 
+  margin-top: auto;
+  color: black;
+ }
+
+/* ====== MEDIA QUERIES  ====== */
+
+/* ≤ 1200 */
+@media (max-width: 1200px) {
+
+  .projet-page footer { 
+    padding: 24px 40px; 
+    gap: 20px; 
+  }
+
+  .projet-page .logo-footer .losange { 
+    width: 121px; 
+    height: 121px; 
+    margin-right: 80px; 
+  }
+}
+
+@media (max-width: 950px) {
+
+ .projet-page footer {
+    display: flex;
+    align-items: center !important; 
+    flex-direction: row;            
+    justify-content: space-between;
+    flex-wrap: nowrap;          
+    gap: 14px;
+    padding: 26px 18px;
+  }
+
+  .projet-page .bloc-gauche {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start !important; 
+    justify-content: center;
+    align-self: center !important;      
+    height: 100% !important; 
+  }
+
+  .projet-page .bloc-gauche .titre2,
+  .projet-page .bloc-gauche .coordonees {
+    width: 100%;
+    text-align: left;
+    height: auto !important;
+  }
+
+  .projet-page.bloc-gauche,
+  .projet-page.liens {
+    flex: 1 1 auto;             
+    min-width: 110px;
+  }
+
+  .projet-page .logo-footer {
+    flex: 0 0 auto;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+  }
+
+  .projet-page .logo-footer .losange {
+    margin-right: 0 !important;   
+  }
+}
+
+ @media (max-width: 750px) {
+
+  .projet-page footer {
+    align-items: flex-start;  
+  }
+
+  .projet-page .liens {     
+    display: block;            
+    text-align: right;         
+    margin-top: 10px;          
+    padding-top: 0;
+  }
+
+  .projet-page .liens a {
+    flex-shrink: 1 !important;
+    font-size: clamp(10px, 1.2vw, 12px);
+    white-space: nowrap;
+  }
+
+  .projet-page .liens a,
+  .projet-page .liens-legaux {
+    display: block;            
+    margin-bottom: 6px;
+  }
+
+  .projet-page .separator {
+    display: none;
+  }
+
+  .projet-page .reseaux {
+    justify-content: flex-end; 
+    margin-top: 8px;
+  }
+
+  .projet-page .reseaux img {
+    width: clamp(24px, 6vw, 40px) !important;  /* logos réactifs */
+    height: auto;
+    flex-shrink: 1 !important;
+  }
+
+  .projet-page .copyright{
+    font-size: 9px;
+  }
+}
