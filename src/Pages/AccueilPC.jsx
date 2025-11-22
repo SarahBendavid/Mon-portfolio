@@ -6,7 +6,7 @@ import PresentationPC from "../Composants/PC/PresentationAccueilPC.jsx";
 import FooterPC from "../Composants/PC/FooterPC.jsx";
 
 import "../assets/styles/StylePC/AccueilPC.css";
-
+import "../assets/styles/StylePC/MediaQuery1300.css";
 
   export default function AccueilPC() {
   return (
