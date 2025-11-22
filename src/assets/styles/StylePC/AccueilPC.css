@@ -1,12 +1,19 @@
   
- .accueil-page html, body, #root {
+ html, body, #root {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+  .accueil-page {
   background-color: black;
-  
   color: rgb(243, 162, 124);
+  min-height: 100vh;
 }
   
   /* HEADER */
