@@ -111,6 +111,7 @@
 }
 
 /* Media Queries */
+/* purgecss start ignore */
 @media (max-width: 1300px) {
   .accueil-page .header { height: 280px; }
   .vShape { clip-path: polygon(0 0, 100% 0, 50% 48%); }
