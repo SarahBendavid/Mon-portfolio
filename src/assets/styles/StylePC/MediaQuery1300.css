@@ -1,7 +1,7 @@
 /* MEDIA QUERY 1360PX SAFE POUR BUILD */
 
 /* purgecss start ignore */
-@media (max-width: 1360px) {
+@media (max-width: 1370px) {
 
   .accueil-page .header {
     height: 280px; 
