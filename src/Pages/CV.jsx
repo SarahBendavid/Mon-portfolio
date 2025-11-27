@@ -13,8 +13,15 @@ i18n.changeLanguage(i18n.language === "fr" ? "en" : "fr");
 };
 
 return (
-<> <main className="page-cv"> <div className="parcours">
-{/* --- TITRE --- */} <section className="zone-titre"> <div className="titre-nom">Sarah Bendavid</div> <div className="metier">{t("cv.title")}</div> </section>
+<> 
+<main className="page-cv"> 
+  <div className="parcours">
+
+{/* --- TITRE --- */} 
+  <section className="zone-titre"> 
+    <div className="titre-nom">Sarah Bendavid</div> 
+    <div className="metier">{t("cv.title")}</div> 
+  </section>
 
       {/* --- PRÉSENTATION --- */}
       <section className="zone-presentation">{t("cv.presentation")}</section>
