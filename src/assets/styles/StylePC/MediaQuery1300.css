@@ -6,33 +6,39 @@
   .accueil-page .header {
     height: 280px; 
   }
+
   .vShape { 
     clip-path: polygon(0 0, 100% 0, 50% 48%); 
   }
+
   .accueil-page .navBar { 
     top: 25%; 
     gap: 36px; 
   }
+
   .accueil-page .losangeFR, 
   .accueil-page .losangeEN { 
     width: 100px; 
     height: 100px; 
     margin-top: 4px; 
   }
+
   .monNavLink { 
     font-size: 20px; 
   }
-  }
+
   .accueil-page footer { 
     padding: 28px 40px; 
     gap: 20px; 
   }
+
   .accueil-page .logo-footer .losange { 
     width: 130px; 
     height: 130px; 
     margin-left: 50px; 
   }
-/* purgecss end ignore */
+}
+  /* purgecss end ignore */
 
 
 
