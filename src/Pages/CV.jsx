@@ -175,8 +175,7 @@ return (
   </main>
 
   {/* --- FOOTER --- */}
-  <FooterPC />
+  <FooterPC className= "footer-cv"/>
 </>
 );
-
 }

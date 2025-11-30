@@ -6,7 +6,7 @@ import PresentationPC from "../Composants/PC/PresentationAccueilPC.jsx";
 import FooterPC from "../Composants/PC/FooterPC.jsx";
 
 import "../assets/styles/StylePC/AccueilPC.css";
-import "../assets/styles/StylePC/MediaQuery1300.css";
+import "../assets/styles/StylePC/MediaQuerySafe.css";
 
   export default function AccueilPC() {
   return (
@@ -14,7 +14,7 @@ import "../assets/styles/StylePC/MediaQuery1300.css";
     <main className="accueil-page">
       <HeaderPC />
       <PresentationPC />
-      <FooterPC />
+      <FooterPC className="footer" />
     </main>
     </>
   );

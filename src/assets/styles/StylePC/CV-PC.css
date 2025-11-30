@@ -316,7 +316,7 @@ footer > .logo-footer {
   font-family: "Times New Roman", serif;
 }
 
-.page-cv .footer .logo-footer .losange { 
+.footer-cv .logo-footer .losange { 
   width: 121px; 
   height: 121px; 
   margin-right: 40px; 
@@ -330,7 +330,7 @@ footer > .logo-footer {
   margin-right: clamp(8px, 4vw, 60px); 
 }
 
-.logo-footer .losange img {
+.footer-cv .logo-footer .losange img {
   width: 72%;
   height: auto;
   transform: rotate(-45deg);
@@ -338,7 +338,7 @@ footer > .logo-footer {
 }
 
 /* Ajustements internes */
-.coordonees {
+.footer-cv .coordonees {
   font-family: "Time-new-roman";
   font-size: clamp(13px, 1.4vw, 15px);
   margin-top: 6px;
@@ -358,7 +358,7 @@ footer > .logo-footer {
   margin-right: -10px;
 }
 
-.footer .liens a, .liens-legaux {
+.footer-cv .liens a, .liens-legaux {
   text-align: right;
   font-size: 2.5vh;
   color: black;
@@ -366,7 +366,7 @@ footer > .logo-footer {
 
 /* Réseaux sociaux */
 
-.footer .reseaux { 
+.footer-cv .reseaux { 
   display:flex; 
   gap:12px; 
   margin-right: 25px;
@@ -394,18 +394,18 @@ footer > .logo-footer {
     max-width: 29vw;
   }
 
-  .footer { 
+  .footer-cv { 
     padding: 23px 40px; 
     gap: 20px; 
   }
 
-  .footer .logo-footer .losange { 
+  .footer-cv .logo-footer .losange { 
     width: 121px; 
     height: 121px; 
     margin-right: 40px; 
   }
 
-  .footer .reseaux {
+  .footer-cv .reseaux {
     margin-right: 14px;
   }
 }
@@ -455,7 +455,7 @@ footer > .logo-footer {
     margin-top: 75px;
   }
 
- .footer {
+ .footer-cv {
     display: flex;
     align-items: center !important; 
     flex-direction: row;            
@@ -486,7 +486,7 @@ footer > .logo-footer {
     min-width: 110px;
   }
 
-  .footer.logo-footer {
+  .footer-cv .logo-footer {
     flex: 0 0 auto;            
     display: flex;
     justify-content: center;
@@ -494,7 +494,7 @@ footer > .logo-footer {
     margin: 0 auto; 
   }
 
-  .footer .logo-footer .losange {
+  .footer-cv .logo-footer .losange {
     margin-right: 0 !important;   
   }
 
@@ -502,7 +502,7 @@ footer > .logo-footer {
     margin-right: 10px;
   }
 
-  .footer .reseaux {
+  .footer-cv .reseaux {
     margin-right: 30px;
   }
 }
@@ -548,7 +548,7 @@ footer > .logo-footer {
     margin-top: 3vh;
   }
 
-  .footer {
+  .footer-cv {
     padding-inline: 10px;
   }
 

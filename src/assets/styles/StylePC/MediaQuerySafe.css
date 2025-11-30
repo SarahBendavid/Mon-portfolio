@@ -1,0 +1,74 @@
+/* MEDIA QUERY 1360PX SAFE POUR BUILD */
+
+/* purgecss start ignore */
+@media (max-width: 1370px) {
+
+  .accueil-page .header {
+    height: 280px; 
+  }
+
+  .vShape { 
+    clip-path: polygon(0 0, 100% 0, 50% 48%); 
+  }
+
+  .accueil-page .navBar { 
+    top: 25%; 
+    gap: 36px; 
+  }
+
+  .monNavLink { 
+    font-size: 20px; 
+  }
+
+  .accueil-page footer { 
+    padding: 20px 40px; 
+    gap: 20px; 
+  }
+
+  .accueil-page .logo-footer .losange { 
+    width: 125px !important; 
+    height: 125px !important; 
+    margin-left: 50px; 
+  }
+
+  .accueil-page .losangeFR, 
+  .accueil-page .losangeEN { 
+    width: 100px; 
+    height: 100px; 
+    margin-top: 4px; 
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .accueil-page .logo-footer .losange { 
+    width: 120px !important; 
+    height: 120px !important; 
+  }
+}
+
+@media (max-width: 870px) {
+  .accueil-page .logo-footer .losange { 
+    width: 100px !important; 
+    height: 100px !important; 
+  }
+}
+
+@media (max-width: 830px) {
+  .accueil-page .logo-footer .losange { 
+    width: 110px !important; 
+    height:110px !important; 
+  }
+}
+
+@media (max-width: 740px) {
+  .accueil-page .logo-footer .losange { 
+    width: 105px !important; 
+    height:105px !important; 
+  }
+}
+  /* purgecss end ignore */
+
+
+
+  

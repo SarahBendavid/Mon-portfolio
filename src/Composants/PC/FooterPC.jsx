@@ -7,7 +7,7 @@ import linkedinLogo from "../../assets/images/logo-linkedin.png";
 import githubLogo from "../../assets/images/logo-github.png";
 import discordLogo from "../../assets/images/logo-discord.jpg";
 
-export default function FooterPC() {
+export default function FooterPC({ className = "" }) {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language;
 
@@ -15,7 +15,7 @@ export default function FooterPC() {
   const privacyLink = currentLang === "fr" ? "/Confidentialite" : "/Privacy-policy";
 
   return (
-    <footer className="footer">
+    <footer className={className}>
       <div className="bloc-gauche">
         <div className="titre2">
           <h2>{t("footer.contact")}</h2>
