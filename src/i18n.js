@@ -80,9 +80,9 @@ const resources = {
             place: "Paris, France",
             tasks: [
               "Conception d’un site vitrine pour une association (HTML, CSS)",
-              "Conception d'un carnet de bord en ligne (HTML, CSS, JS)",
-              "Conception de mon portfolio (React.js, CSS)",
-              "Conception d'une application pour calculer les pourboires (HTML, CSS, JS)",
+              "Conception d'un carnet de bord en ligne (Js)",
+              "Conception de mon portfolio (React.js,)",
+              "Conception d'une application pour calculer les pourboires (Js)",
               "Gestion des versions et mise en ligne des projets avec Git",
             ],
           },

@@ -44,7 +44,7 @@ return (
             <span className="place">{t("cv.experiences.freelance.place")}</span>
           </div>
         </div>
-        <ul className="ul-parcours">{t("cv.experiences.freelance.tasks", { returnObjects: true }).map((task, index) => (
+        <ul className="ul-exp">{t("cv.experiences.freelance.tasks", { returnObjects: true }).map((task, index) => (
           <li key={index}>{task}</li>
         ))}
         </ul>
@@ -63,7 +63,7 @@ return (
             <span className="place">{t("cv.experiences.redactrice.place")}</span>
           </div>
         </div>
-        <ul className="ul-parcours">{t("cv.experiences.redactrice.tasks", { returnObjects: true }).map((task, index) => (
+        <ul className="ul-exp">{t("cv.experiences.redactrice.tasks", { returnObjects: true }).map((task, index) => (
         <li key={index}>{task}</li>
         ))}
         </ul>
@@ -82,7 +82,7 @@ return (
             <span className="place">{t("cv.experiences.secretaire.place")}</span>
           </div>
         </div>
-        <ul className="ul-parcours">{t("cv.experiences.secretaire.tasks", { returnObjects: true }).map((task, index) => (
+        <ul className="ul-exp">{t("cv.experiences.secretaire.tasks", { returnObjects: true }).map((task, index) => (
           <li key={index}>{task}</li>
         ))}
         </ul>
