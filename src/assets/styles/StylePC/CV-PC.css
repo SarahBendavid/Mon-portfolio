@@ -733,6 +733,10 @@ footer > .logo-footer {
     padding: 0 !important;
   }
 
+  .detail-parcours {
+    padding-inline: 4vh
+  }
+
   .diplome {
     font-size: 2.7vh;
   }
