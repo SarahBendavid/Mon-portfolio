@@ -733,6 +733,10 @@ footer > .logo-footer {
     padding: 0 !important;
   }
 
+  .diplome {
+    font-size: 2.7vh;
+  }
+
   .page-cv aside {
     flex: 0 0 36vw;
     max-width: 36vw;
