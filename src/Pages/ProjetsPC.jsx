@@ -5,6 +5,7 @@ import ProjetsMainPC from "../Composants/PC/ProjetsMainPC.jsx";
 import FooterPC from "../Composants/PC/FooterPC.jsx";
 
 import "../assets/styles/StylePC/ProjetsPC.css";
+import "../assets/styles/StylePC/MediaQuerySafe.css";
 
 export default function ProjetsPC() {
   return (

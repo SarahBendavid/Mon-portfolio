@@ -183,7 +183,7 @@ const resources = {
           7: {
             title: "TotalTip",
             date: "Créé en Mars 2022",
-            desc: "Calcule rapide des pourboires a payer.",
+            desc: "Calculez rapidement vos pourboires a payer.",
           },
 
           8: {

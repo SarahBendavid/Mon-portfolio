@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import FooterPC from "../Composants/PC/FooterPC.jsx";
 import "../assets/styles/StylePC/CV-PC.css";
+import "../assets/styles/StylePC/MediaQuerySafe.css";
 import photoProfil from "../assets/images/photo-cv.png";
 import coordonnees from "../assets/images/coordonnees.png";
 

@@ -30,7 +30,7 @@ export default function FooterPC({ className = "" }) {
       </div>
 
       <Link to="/" className="logo-footer">
-        <div className="losange">
+        <div className={`losange ${i18n.language === "en" ? "losangeEN" : "losangeFR"}`}>
           <img src={logo} alt="Logo" />
         </div>
       </Link>
@@ -48,14 +48,17 @@ export default function FooterPC({ className = "" }) {
           </a>
         </div>
 
-        <div className="liens-legaux">
-          <Link to={legalLink}>{t("footer.legal")}</Link> 
-          <span className="separator">|</span>{" "}
-          <Link to={privacyLink}>{t("footer.privacy")}</Link>
+        <div className={`liens-legaux ${
+        i18n.language === "en" ? "liens-legaux-EN" : "liens-legaux-FR"
+      }`}
+    >
+         <Link to={legalLink}>{t("footer.legal")}</Link>
+         <span className={`separator sep-${i18n.language}`}>|</span>
+         <Link to={privacyLink}>{t("footer.privacy")}</Link>
         </div>
 
         <div className="copyright">
-          © 2025 Sarah Bendavid. {t("footer.rights")}
+          © 2025 Sarah Bendavid. <span className="copyright-rights">{t("footer.rights")}</span>
         </div>
       </div>
     </footer>
