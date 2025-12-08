@@ -478,7 +478,8 @@ html, body, #root {
   }
 
   .detail-parcours {
-    padding-inline: 4vh
+    padding-inline: 4vh;
+    margin-top: 5vh;
   }
 
   .diplome {
@@ -491,13 +492,17 @@ html, body, #root {
   }
 
   .div-photo {
-    width: 18vw;
+    width: 17vw;
     margin-top: 3vh;
     margin-bottom: 0vh;
   }
 
   .titre-aside {
     margin-top: 3vh;
+  }
+
+  .renseignements-img {
+    margin-bottom: 5px;
   }
 
   .dot {
@@ -510,21 +515,108 @@ html, body, #root {
   }
 }
 
+@media (max-width: 680px) {
+  .renseignements {
+    font-size: 2.2vh;
+  }
+}
+
 @media (max-width: 665px) {
 
   .metier {
-    font-size: 5vh;
+    font-size: 4vh;
   }
 
   .titre-aside {
-        margin-top: 3vh;
+    margin-top: 3vh;
     }
+
+  .div-photo {
+    width: 16vw;
+  }
+}
+
+@media (max-width: 638px) {
+  .div-photo {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+  }
+}
+
+@media (max-width: 630px) {
+  .diplome {
+    font-size: 2.5vh;
+  }
+  .date {
+    font-size: 13px;
+  }
+  .place {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 610px) {
+  
+  .renseignements {
+    font-size: 2vh;
+  }
 }
 
 @media (max-width: 605px) {
   
   .zone-presentation {
     font-size: 2.3vh;
+  }
+}
+
+@media (max-width: 591px) {
+  
+  .zone-presentation {
+    font-size: 2vh !important;
+  }
+
+  .diplome {
+    font-size: 2.2vh;
+  }
+}
+
+@media (max-width: 558px) {
+
+  .metier {
+    font-size: 3vh;
+  }
+
+  .renseignements {
+    font-size: 1.8vh;
+  }
+}
+
+@media (max-width: 540px) {
+  
+  .zone-presentation {
+    font-size: 1.8vh !important;
+  }
+
+  .detail-parcours {
+    padding-inline: 2vh;
+  }
+
+  .diplome {
+    font-size: 2vh;
+  }
+
+  .date {
+    font-size: 11px;
+  }
+
+  .place {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 510px) {
+  .renseignements {
+    padding-inline: 2px;
   }
 }
 
@@ -827,3 +919,15 @@ html, body, #root {
   font-size: 2.2vh;
   }
 }
+
+@media (max-width: 615px) {
+
+.footer-cv {
+  padding: 0 3px;
+}
+
+.footer-cv .liens {
+  margin-right: 7px !important;
+}
+}
+

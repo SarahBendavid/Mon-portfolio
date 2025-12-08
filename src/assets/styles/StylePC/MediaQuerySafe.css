@@ -44,12 +44,16 @@
 
   .accueil-page .footer .losangeFR, 
   .accueil-page .footer .losangeEN,
-  .projet-page .logo-footer .losange,
   .footer-cv .losangeFR,
   .footer-cv .losangeEN { 
     width: 125px !important; 
     height: 125px !important; 
     margin-left: 50px;  
+  }
+
+  .projet-page .logo-footer .losange {
+    width: 125px !important; 
+    height: 125px !important; 
   }
 }
 
@@ -131,6 +135,40 @@
   .footer-cv .losangeFR { 
     width: 120px !important; 
     height:120px !important; 
+  }
+}
+
+@media (max-width: 660px) { 
+  .footer-cv .losange {
+    width: 115px !important; 
+    height:115px !important; 
+  }
+}
+
+@media (max-width: 615px) { 
+  .footer-cv .losange {
+    width: 100px !important;
+    height: 100px !important;
+    margin-top: 22px !important;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-cv .losange {
+    width: 97px !important;
+    height: 97px !important;
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 530px) {
+
+  .footer-cv .coordonees {
+    font-size: 12px;
+  }
+  .liens-legaux-FR {
+    font-size: 2vh !important;
   }
 }
   /* purgecss end ignore */

@@ -25,14 +25,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.44097222"
-     inkscape:cx="399.11811"
+     inkscape:cx="400.25197"
      inkscape:cy="561.25985"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g2-9"
      showgrid="false" />
   <defs
      id="defs1">
@@ -92,15 +92,17 @@
          font-style="italic"
          font-weight="400"
          font-size="32px"
-         transform="translate(158.493,256)"
-         id="text1">@ Sarah Bendavid</text>
+         id="text1"
+         x="181.61018"
+         y="256">Sarah Bendavid</text>
       <text
          font-family="'Brush Script MT', 'Brush Script MT_MSFontService', sans-serif"
          font-style="italic"
          font-weight="400"
          font-size="32px"
-         transform="translate(208.04,310)"
-         id="text2"># 34 ans</text>
+         id="text2"
+         x="229.37894"
+         y="304.00198">34 ans</text>
     </g>
   </g>
 </svg>
