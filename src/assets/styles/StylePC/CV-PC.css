@@ -76,6 +76,7 @@ html, body, #root {
   padding-top: 3vh;
   padding-bottom: 3vh;
   font-weight: bolder;
+  padding-inline: 2px;
 }
 
 .detail-parcours{
@@ -580,6 +581,12 @@ html, body, #root {
   }
 }
 
+@media (max-width: 570px) {
+  .date {
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 558px) {
 
   .metier {
@@ -603,10 +610,6 @@ html, body, #root {
 
   .diplome {
     font-size: 2vh;
-  }
-
-  .date {
-    font-size: 11px;
   }
 
   .place {
@@ -789,7 +792,7 @@ html, body, #root {
   grid-template-columns: 1fr auto 1fr; 
   align-items: center;        
   gap: 14px;
-  padding: 10px 30px;
+  padding: 5px 30px;
   }
 
 .footer-cv .bloc-gauche {
@@ -836,7 +839,8 @@ html, body, #root {
   }
 
   .footer-cv .liens a,
-  .footer-cv .liens-legaux-FR {
+  .footer-cv .liens-legaux-FR,
+  .footer-cv .liens-legaux-EN {
     display: block;            
     margin-bottom: 6px;
     text-align: right;
@@ -846,14 +850,10 @@ html, body, #root {
     margin-right: 0;
   }
 
-  .footer-cv .separator.sep-fr {
-    display: none;
-  }
-
+  .footer-cv .separator.sep-fr,
   .footer-cv .separator.sep-en {
-    position: relative;
-    top: -3px;
-  }
+    display: none;
+  } 
 }
 
 @media (max-width: 870px) {
@@ -920,6 +920,12 @@ html, body, #root {
   }
 }
 
+@media (max-width: 630px) {
+ .footer-cv .coordonees {
+   font-size: 12px;
+  }
+}
+
 @media (max-width: 615px) {
 
 .footer-cv {
@@ -929,6 +935,11 @@ html, body, #root {
 .footer-cv .liens {
   margin-right: 7px !important;
   margin-bottom: 5px !important;
-}
+ }
 }
 
+@media (max-width: 580px) {
+.footer-cv .liens-legaux-FR a {
+  font-size: 11px;
+  }
+}

@@ -362,14 +362,14 @@ const resources = {
           },
 
           4: {
-            title: "Tic-Tac-Toe Game",
-            date: "Created in February 2023",
+            title: "Tic-Tac-Toe",
+            date: "In February 2023",
             desc: "A classic game that everyone knows. (React.js)",
           },
 
           5: {
             title: "Logbook",
-            date: "Created in October 2022",
+            date: "In October 2022",
             desc: "Don't forget anything when creating your to-do list!",
           },
 
@@ -381,7 +381,7 @@ const resources = {
 
           7: {
             title: "TotalTip",
-            date: "Created in March 2022",
+            date: "In March 2022",
             desc: "Quick calculation of tips to pay.",
           },
 

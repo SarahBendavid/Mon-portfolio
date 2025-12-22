@@ -10,14 +10,16 @@ export default function HeaderPC() {
     i18n.changeLanguage(lng);
   };
 
-  // Classe dynamique basée sur la langue
   const losangeClass = i18n.language === "fr" ? "losangeFR" : "losangeEN";
+
+  const navBarClass =
+  i18n.language === "fr" ? "navBar navBarFR" : "navBar navBarEN";
 
   return (
     <header className="header">
       <div className="vShape" />
 
-      <div className="navBar">
+      <div className={navBarClass}>
         <Link to="/cv" className="monNavLink">{t("header.cv")}</Link>
 
         <Link to="/" className="logo">
