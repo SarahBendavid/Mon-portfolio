@@ -1,0 +1,41 @@
+.vShape {
+  position: relative;
+  width: 100%;
+  height: 79%;
+  background-color: rgb(243, 162, 124);
+  clip-path: polygon(0 0, 100% 0, 50% 99%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .vShape {
+    height: 72%;
+  }
+}
+
+@media (max-width: 670px) {
+  .vShape {
+    height: 77%;
+  }
+}
+
+@media (max-width: 550px) {
+  .vShape {
+    height: 78%;
+  }
+}
+ 
+@media (max-width: 490px) {
+  .vShape {
+    height: 73%;
+  }
+}
+
+@media (max-width: 400px) {
+  .vShape {
+    height: 68%;
+  }
+}

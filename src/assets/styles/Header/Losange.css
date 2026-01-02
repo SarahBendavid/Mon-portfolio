@@ -1,0 +1,66 @@
+/* Logo */
+.accueil-page .logo,
+.projet-page .logo {
+  position: absolute;
+  top: 50%;         
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+/* Losange */
+.accueil-page .losange,
+.projet-page .losange {
+  transform: rotate(45deg) scale(var(--losange-scale, 1));  
+  width: 100px;
+  aspect-ratio: 1 / 1;
+  background: rgb(143, 130, 137);
+  border: 4px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  flex-shrink: 0;
+}
+
+.accueil-page .losange img,
+.projet-page .losange img {
+  width: 65%;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 1000px) {
+  .accueil-page .losange,
+  .projet-page .losange {
+    width: 90px;
+  }
+}
+
+@media (max-width: 670px) {
+  .accueil-page .losange,
+  .projet-page .losange {
+    width: 80px;
+  }
+}
+
+@media (max-width: 550px) {
+  .accueil-page .losange,
+  .projet-page .losange {
+    width: 70px;
+  }
+}
+
+@media (max-width: 490px) {
+  .accueil-page .losange,
+  .projet-page .losange {
+    width: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .accueil-page .losange, 
+  .projet-page .losange {
+    width: 55px;
+  }
+}

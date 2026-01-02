@@ -858,7 +858,7 @@ html, body, #root {
 
 @media (max-width: 870px) {
 
-  .monNavLink {
+  .page-cv .monNavLink {
    margin-bottom: 30px !important;
   }
 
@@ -943,3 +943,4 @@ html, body, #root {
   font-size: 11px;
   }
 }
+

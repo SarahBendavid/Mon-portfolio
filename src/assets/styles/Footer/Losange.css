@@ -1,0 +1,54 @@
+.footer .losange,
+.footer .losange {
+  transform: rotate(45deg) scale(var(--losange-scale, 1));  
+  width: 99px;
+  aspect-ratio: 1 / 1;
+  background: rgb(143, 130, 137);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  flex-shrink: 0;
+  justify-self: center;
+  align-self: center;
+}
+
+.accueil-page footer .losange,
+.projet-page footer .losange {
+  border: 4px solid #333;
+}
+
+.logo-footer {
+  display: contents;
+}
+
+footer .losange img,
+footer .losange img {
+  width: 72%;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 700px) {
+  .footer .losange {
+    width: 97px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer .losange {
+    width: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer .losange {
+    width: 81px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer .losange {
+    width: 75px;
+  }
+}

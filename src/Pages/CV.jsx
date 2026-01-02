@@ -1,10 +1,8 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
-import FooterPC from "../Composants/PC/FooterPC.jsx";
-import "../assets/styles/StylePC/CV-PC.css";
-import "../assets/styles/StylePC/MediaQuerySafe.css";
-import photoProfil from "../assets/images/photo-cv.png";
-import coordonnees from "../assets/images/coordonnees.png";
+import Footer from "../Composants/Footer/Footer.jsx";
+import "../Assets/styles/Main/CV.css";
+import photoProfil from "../Assets/images/photo-cv.png";
+import coordonnees from "../Assets/images/coordonnees.png";
 
 export default function CV() {
 const { t, i18n } = useTranslation();
@@ -176,7 +174,7 @@ return (
   </main>
 
   {/* --- FOOTER --- */}
-  <FooterPC className= "footer-cv"/>
+  <Footer className= "footer-cv"/>
 </>
 );
 }

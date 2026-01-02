@@ -1,15 +1,15 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
-import Projet4 from "../../assets/images/projet4.png";
-import Projet5 from "../../assets/images/projet5.png";
-import Projet6 from "../../assets/images/projet6.png";
-import Projet7 from "../../assets/images/projet7.png";
-import Projet8 from "../../assets/images/projet8.png";
-import Projet9 from "../../assets/images/projet9.png";
+import "../../Assets/styles/Main/ProjetMain.css";
 
+import Projet4 from "../../Assets/images/projet4.png";
+import Projet5 from "../../Assets/images/projet5.png";
+import Projet6 from "../../Assets/images/projet6.png";
+import Projet7 from "../../Assets/images/projet7.png";
+import Projet8 from "../../Assets/images/projet8.png";
+import Projet9 from "../../Assets/images/projet9.png";
 
-export default function ProjetsMainPC() {
+export default function ProjetsMain() {
   const { t } = useTranslation();
 
   return (

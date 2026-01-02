@@ -1,14 +1,16 @@
-import React from "react";
 import { useTranslation, Trans } from "react-i18next";
-import photoCv from "../../assets/images/photoCv.jpg";
-import cadre from "../../assets/images/cadre.svg";
 
-import postitNomFR from "../../assets/images/postite-nom.svg";
-import postitMetierFR from "../../assets/images/postite-metier.svg";
-import postitNomEN from "../../assets/images/postite-nom-english.svg";
-import postitMetierEN from "../../assets/images/postite-metier-english.svg";
+import "../../Assets/styles/Main/AccueilMain.css";
 
-export default function PresentationPC() {
+import photoCv from "../../Assets/images/photoCv.jpg";
+import cadre from "../../Assets/images/cadre.svg";
+
+import postitNomFR from "../../Assets/images/postite-nom.svg";
+import postitMetierFR from "../../Assets/images/postite-metier.svg";
+import postitNomEN from "../../Assets/images/postite-nom-english.svg";
+import postitMetierEN from "../../Assets/images/postite-metier-english.svg";
+
+export default function Presentation() {
   const { t, i18n } = useTranslation();
 
   const postitNom = i18n.language === "fr" ? postitNomFR : postitNomEN;

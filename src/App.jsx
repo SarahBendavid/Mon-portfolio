@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import AccueilPC from "./Pages/AccueilPC.jsx";
+import Accueil from "./Pages/Accueil.jsx";
 import CV from "./Pages/CV.jsx";
-import ProjetsPC from "./Pages/ProjetsPC.jsx";
+import Projets from "./Pages/Projets.jsx";
 
 
 import MentionsLegales from "./Pages/Mentions-legales.jsx";
@@ -19,9 +19,9 @@ function App() {
 
       <Routes>
     
-      <Route path="/" element={<AccueilPC />} />
+      <Route path="/" element={<Accueil />} />
       <Route path="/cv" element={<CV />} />
-      <Route path="/projets" element={<ProjetsPC />} />
+      <Route path="/projets" element={<Projets />} />
 
 
       {/* Pages légales */}
