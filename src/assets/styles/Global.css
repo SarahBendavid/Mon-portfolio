@@ -9,6 +9,10 @@ html, body, #root {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Montserrat", "Roboto", system-ui, sans-serif;
+}
+
 .accueil-page,
 .projet-page {
   background-color: black;

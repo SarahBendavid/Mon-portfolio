@@ -27,6 +27,7 @@ footer {
 @media (max-width: 400px) {
   
   footer {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     min-height: 100px;
     padding-top: 0;
     padding-bottom: 0;
