@@ -1,6 +1,9 @@
 import { useTranslation, Trans } from "react-i18next";
 
-import "../../Assets/styles/Main/AccueilMain.css";
+import "../../Assets/styles/Main/Accueil/AccueilMain.css";
+import "../../Assets/styles/Main/Accueil/Texte.css";
+import "../../Assets/styles/Main/Accueil/DivImg.css";
+import "../../Assets/styles/Main/Accueil/Postites.css";
 
 import photoCv from "../../Assets/images/photoCv.jpg";
 import cadre from "../../Assets/images/cadre.svg";

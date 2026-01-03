@@ -1,0 +1,62 @@
+.accueil-page .introduction {
+  font-size: 17px;
+  padding-inline: 30px;
+  margin-bottom: 14vw;
+}
+
+.accueil-page h1 {
+  font-size: 6vw;
+  margin-top: 58px;
+  font-family: "Brush Script MT", cursive;
+  color: rgb(243, 162, 124);
+}
+
+.accueil-page p {
+  font-family: "calibri";
+  color: rgb(243, 162, 124);
+  text-align: justify;
+}
+
+.presentation {
+  font-size: 3vh;
+  margin-inline: 70px;
+}
+
+@media (max-width: 850px) {
+
+  .accueil-page .introduction {
+    margin-bottom: 22vw;
+  }
+  .accueil-page h1 {
+    margin-top: -2vw;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .accueil-page .introduction {
+    margin-bottom: 28vw;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .accueil-page .introduction {
+    font-size: 16px;
+  }
+
+  .presentation {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 523px) {
+
+  .accueil-page .introduction {
+    font-size: 14px;
+  }
+
+  .presentation {
+    font-size: 14px;
+  }
+}

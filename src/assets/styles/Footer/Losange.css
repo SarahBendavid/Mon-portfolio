@@ -1,5 +1,5 @@
 .footer .losange,
-.footer .losange {
+.footer-cv .losange {
   transform: rotate(45deg) scale(var(--losange-scale, 1));  
   width: 99px;
   aspect-ratio: 1 / 1;
@@ -18,6 +18,10 @@
   border: 4px solid #333;
 }
 
+.footer-cv .losange {
+  border: 4px solid #aa514f;
+}
+
 .logo-footer {
   display: contents;
 }
@@ -30,25 +34,29 @@ footer .losange img {
 }
 
 @media (max-width: 700px) {
-  .footer .losange {
+  .footer .losange,
+  .footer-cv .losange {
     width: 97px;
   }
 }
 
 @media (max-width: 600px) {
-  .footer .losange {
+  .footer .losange,
+  .footer-cv .losange {
     width: 90px;
   }
 }
 
 @media (max-width: 450px) {
-  .footer .losange {
+  .footer .losange,
+  .footer-cv .losange {
     width: 81px;
   }
 }
 
 @media (max-width: 400px) {
-  .footer .losange {
+  .footer .losange,
+  .footer-cv .losange {
     width: 75px;
   }
 }

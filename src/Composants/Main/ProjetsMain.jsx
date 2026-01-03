@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import "../../Assets/styles/Main/ProjetMain.css";
+import "../../Assets/styles/Main/Projets/ProjetMain.css";
 
 import Projet4 from "../../Assets/images/projet4.png";
 import Projet5 from "../../Assets/images/projet5.png";

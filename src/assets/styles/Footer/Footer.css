@@ -5,9 +5,17 @@ footer {
   align-items: center;
   padding: 3px clamp(16px, 4vw, 60px);
   box-sizing: border-box;
-  background-color: rgb(243, 162, 124);
   min-height: 140px;
   margin-top: auto;
+}
+
+.accueil-page .footer,
+.projet-page .footer {
+  background-color: rgb(243, 162, 124);
+}
+
+.footer-cv  {
+  background-color:  #A6A6A6;
 }
 
 @media (max-width: 600px) {

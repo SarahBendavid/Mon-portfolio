@@ -1,0 +1,8 @@
+.accueil-page main {
+  position: relative;
+  justify-items: center;
+  padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  flex: 1 0 auto;
+}
+
