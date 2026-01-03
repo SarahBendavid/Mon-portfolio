@@ -120,13 +120,17 @@
     white-space: nowrap;
   }
 
+  .bloc-gauche .coordonees br {
+    display: block;
+  }
+
   .bloc-gauche .coordonees .span-tel {
     display: block;
   }
 
   .bloc-gauche .coordonees .span-mail {
     white-space: nowrap;
-    font-size: clamp(8px, 2.5vw, 13px);
+    font-size: 0.75em;
     word-break: break-word;
   }
 }
