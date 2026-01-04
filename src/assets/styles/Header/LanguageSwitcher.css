@@ -44,13 +44,20 @@
   .accueil-page .language-switcher, 
   .projet-page .language-switcher {
     left: 60px;
+    top: 85px;
   }
 }
 
 @media (max-width: 800px) {
+
   .accueil-page .language-switcher .btn,
   .projet-page .language-switcher .btn {
     font-size: 13px;
+  }
+  .accueil-page .language-switcher .dropdown-menu, 
+  .projet-page .language-switcher .dropdown-menu {
+    font-size: 13px;
+    line-height: 1;
   }
 }
 
@@ -58,6 +65,7 @@
   .accueil-page .language-switcher .btn,
   .projet-page .language-switcher .btn {
     font-size: 12px;
+    padding: 4px 10px;
   }
   .accueil-page .language-switcher, 
   .projet-page .language-switcher {
@@ -65,11 +73,17 @@
   }
 }
 
+@media (max-width: 550px) {
+  .accueil-page .language-switcher, 
+  .projet-page .language-switcher {
+    top: 70px;
+  }
+}
+
 @media (max-width: 500px) {
   .accueil-page .language-switcher .btn,
   .projet-page .language-switcher .btn {
     font-size: 11px;
-    padding: 4px 10px;
   }
 
   .accueil-page .language-switcher, 
@@ -78,7 +92,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .accueil-page .language-switcher, 
   .projet-page .language-switcher {
     left: 38px;

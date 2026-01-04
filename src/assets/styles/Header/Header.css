@@ -14,16 +14,16 @@
   .accueil-page .header, 
   .projet-page .header {
    height: 150px;
-   min-height: 150px;
+   min-height: 170px;
+   margin-bottom: 0;
  }
 }
 
 @media (max-width: 550px) {
   .accueil-page .header, 
   .projet-page .header {
-    height: 130px;
-    min-height: 130px;
-  }
+   min-height: 150px;
+ }
 }
 
 @media (max-width: 490px) {
@@ -31,6 +31,6 @@
   .accueil-page .header, 
   .projet-page .header {
     height: 120px;
-    min-height: 120px;
+    min-height: 145px;
   }
 }
