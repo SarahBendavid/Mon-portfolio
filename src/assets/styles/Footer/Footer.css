@@ -9,8 +9,8 @@ footer {
   margin-top: auto;
 }
 
-.accueil-page .footer,
-.projet-page .footer {
+.accueil-page footer,
+.projet-page footer {
   background-color: rgb(243, 162, 124);
 }
 
@@ -20,14 +20,15 @@ footer {
 
 @media (max-width: 600px) {
 
-  footer {
+  .accueil-page footer,
+  .projet-page footer {
     min-height: 130px;
   }
 }
 
 @media (max-width: 450px) {
   
-   footer {
+  footer {
     min-height: 115px;
   }
 }

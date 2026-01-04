@@ -31,36 +31,36 @@
 }
 
 @media (max-width: 1000px) {
-  .accueil-page .losange,
-  .projet-page .losange {
+  .accueil-page header .losange,
+  .projet-page header .losange {
     width: 90px;
   }
 }
 
 @media (max-width: 670px) {
-  .accueil-page .losange,
-  .projet-page .losange {
+  .accueil-page header .losange,
+  .projet-page header .losange {
     width: 80px;
   }
 }
 
 @media (max-width: 550px) {
-  .accueil-page .losange,
-  .projet-page .losange {
+  .accueil-page header .losange,
+  .projet-page header .losange {
     width: 70px;
   }
 }
 
 @media (max-width: 490px) {
-  .accueil-page .losange,
-  .projet-page .losange {
+  .accueil-page header .losange,
+  .projet-page header .losange {
     width: 60px;
   }
 }
 
 @media (max-width: 400px) {
-  .accueil-page .losange, 
-  .projet-page .losange {
+  .accueil-page header .losange, 
+  .projet-page header .losange {
     width: 55px;
   }
 }

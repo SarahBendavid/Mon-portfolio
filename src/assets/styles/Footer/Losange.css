@@ -26,7 +26,6 @@
   display: contents;
 }
 
-footer .losange img,
 footer .losange img {
   width: 72%;
   height: auto;
@@ -34,28 +33,32 @@ footer .losange img {
 }
 
 @media (max-width: 700px) {
-  .footer .losange,
+  .accueil-page footer .losange,
+  .projet-page footer .losange,
   .footer-cv .losange {
     width: 97px;
   }
 }
 
 @media (max-width: 600px) {
-  .footer .losange,
+  .accueil-page footer .losange,
+  .projet-page footer .losange,
   .footer-cv .losange {
     width: 90px;
   }
 }
 
 @media (max-width: 450px) {
-  .footer .losange,
+  .accueil-page footer .losange,
+  .projet-page footer .losange,
   .footer-cv .losange {
     width: 81px;
   }
 }
 
 @media (max-width: 400px) {
-  .footer .losange,
+  .accueil-page footer .losange,
+  .projet-page footer .losange,
   .footer-cv .losange {
     width: 75px;
   }
