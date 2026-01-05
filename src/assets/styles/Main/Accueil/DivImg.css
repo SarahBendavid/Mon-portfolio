@@ -1,37 +1,43 @@
-.divImg {
+.zoneImg {
+  position: relative;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: fit-content;     
+  margin: 0 auto; 
+  overflow: visible; 
 }
 
-.photoWrapper {
+.decor {
   position: relative;
   width: clamp(130px, 22vw, 220px);
   aspect-ratio: 1 / 1;
   display: grid;
   place-items: center;
+  transform: translateY(-5%);
+  z-index: 2;
 }
 
 .photoCv {
-  width: 108%;
+  position: relative;
+  width: 87%;
   height: 55%;
   border-radius: 50%;
   object-fit: cover;
-  z-index: 2;  
+  z-index: 3;  
 }
 
 .cadre {
   position: absolute;
-  width: 173%;
+  width: 140%;
   object-fit: contain;
   pointer-events: none;
-  z-index: 1;
+  z-index: 2;
   transform: translateX(-1.9%) translateY(0.5%);
 }
 
 @media (max-width: 523px) {
   .cadre {
-  transform: translateX(-9.9%) translateY(0.8%);
+  transform: translateX(-1.9%) translateY(0.8%);
  }
 }
 

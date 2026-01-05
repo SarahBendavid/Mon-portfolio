@@ -7,6 +7,7 @@
   font-size: 6vw;
   font-family: "Brush Script MT", cursive;
   color: rgb(243, 162, 124);
+  margin-top: -30px
 }
 
 .accueil-page p {
@@ -17,10 +18,22 @@
 
 .presentation {
   font-size: 17px;
-  margin-inline: 70px;
+  padding-inline: 53px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 930px) {
+   .accueil-page h1 {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .accueil-page h1 {
+    margin-top: -25px;
+  }
+}
+
+@media (max-width: 750px) {
 
   .accueil-page .introduction {
     font-size: 16px;
@@ -28,6 +41,23 @@
 
   .presentation {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .accueil-page h1 {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 590px) {
+
+  .accueil-page .introduction {
+    font-size: 15px;
+  }
+
+  .presentation {
+    font-size: 15px;
   }
 }
 
@@ -35,9 +65,30 @@
 
   .accueil-page .introduction {
     font-size: 14px;
+    padding-inline: 20px;
   }
 
   .presentation {
     font-size: 14px;
+    padding-inline: 51px;
+  }
+}
+
+@media (max-width: 490px) {
+
+  .accueil-page .introduction  {
+    font-size: 13px;
+    
+  }
+  .presentation {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 417px) {
+
+  .presentation,
+  .accueil-page .introduction  {
+    font-size: 12px;
   }
 }

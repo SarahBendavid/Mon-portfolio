@@ -26,21 +26,17 @@ export default function Presentation() {
 
       <p className="introduction">{t("presentation.intro")}</p>
 
-        <div className="divImg">
+        <div className="zoneImg">
 
-          <div className="photoWrapper">
+          <div className="decor">
 
             <img className="photoCv" src={photoCv} alt="photoCv" />
             <img src={cadre} alt="cadre" className="cadre" />
 
-          </div>
-
-          <div className={`decor-1 decor-${lang}`}>
-            <img src={postitNom} alt="postit nom" className="postit1" />
-          </div>
-
-          <div className={`decor-2 decor-${lang}`}>
-            <img src={postitMetier} alt="postit métier" className="postit2" />
+            <div className={`postits postits-${lang}`}> 
+              <img src={postitNom} alt="postit nom" className="postit1" />
+              <img src={postitMetier} alt="postit métier" className="postit2" />
+            </div>
           </div>
         </div>
 
