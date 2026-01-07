@@ -7,12 +7,12 @@ import "../../Assets/styles/Main/Accueil/Postites.css";
 
 import photoCv from "../../Assets/images/photoCv.jpg";
 import cadre from "../../Assets/images/cadre.svg";
-import postitNom from "../../Assets/images/postite-nom.svg";
-import postitAgeFR from "../../Assets/images/postite-age-FR.svg";
+import postitNom from "../../Assets/images/postite-nom.png";
+import postitAgeFR from "../../Assets/images/postite-age-FR.png";
 import postitAgeEN from "../../Assets/images/postite-age-EN.svg";
-import postitDev from "../../Assets/images/developpeuse.svg";
-import postitPsy from "../../Assets/images/Psychologue.svg";
-import postitRedac from "../../Assets/images/Redactrice.svg";
+import postitDev from "../../Assets/images/developpeuse.png";
+import postitPsy from "../../Assets/images/Psychologue.png";
+import postitRedac from "../../Assets/images/Redactrice.png";
 
 
 export default function Presentation() {
