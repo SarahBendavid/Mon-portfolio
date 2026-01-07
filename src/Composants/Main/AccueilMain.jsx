@@ -7,17 +7,18 @@ import "../../Assets/styles/Main/Accueil/Postites.css";
 
 import photoCv from "../../Assets/images/photoCv.jpg";
 import cadre from "../../Assets/images/cadre.svg";
+import postitNom from "../../Assets/images/postite-nom.svg";
+import postitAgeFR from "../../Assets/images/postite-age-FR.svg";
+import postitAgeEN from "../../Assets/images/postite-age-EN.svg";
+import postitDev from "../../Assets/images/developpeuse.svg";
+import postitPsy from "../../Assets/images/Psychologue.svg";
+import postitRedac from "../../Assets/images/Redactrice.svg";
 
-import postitNomFR from "../../Assets/images/postite-nom.svg";
-import postitMetierFR from "../../Assets/images/postite-metier.svg";
-import postitNomEN from "../../Assets/images/postite-nom-english.svg";
-import postitMetierEN from "../../Assets/images/postite-metier-english.svg";
 
 export default function Presentation() {
   const { t, i18n } = useTranslation();
 
-  const postitNom = i18n.language === "fr" ? postitNomFR : postitNomEN;
-  const postitMetier = i18n.language === "fr" ? postitMetierFR : postitMetierEN;
+  const postitAge = i18n.language === "fr" ? postitAgeFR : postitAgeEN;
 
   const lang = i18n.language;
 
@@ -28,16 +29,39 @@ export default function Presentation() {
 
         <div className="zoneImg">
 
-          <div className="decor">
+          <div className="postits postits-gauche"> 
+
+            <div className="postit postit1">
+              <img src={postitNom} alt="postit nom" />
+            </div>
+
+            <div className={`postit postit2-${lang}`}> 
+              <img src={postitAge} alt="postit age"  />
+            </div>
+          </div>
+
+          <div className="wrapperImg">
 
             <img className="photoCv" src={photoCv} alt="photoCv" />
             <img src={cadre} alt="cadre" className="cadre" />
 
-            <div className={`postits postits-${lang}`}> 
-              <img src={postitNom} alt="postit nom" className="postit1" />
-              <img src={postitMetier} alt="postit métier" className="postit2" />
-            </div>
           </div>
+
+          <div className={`postits postits-droit-${lang}`}>
+
+            <div className="postit postit3">
+              <img src={postitDev} alt="postit dev" />
+            </div>
+
+            <div className="postit postit4">
+              <img src={postitRedac} alt="postit redac" />
+            </div>
+
+            <div className="postit postit5">
+              <img src={postitPsy} alt="postit psy" />
+            </div>
+
+          </div> 
         </div>
 
       <h1>{t("presentation.title")}</h1>

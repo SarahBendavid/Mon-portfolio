@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="122.36884mm"
-   height="42.181671mm"
-   viewBox="0 0 122.36884 42.181671"
+   width="180.73134mm"
+   height="94.571571mm"
+   viewBox="0 0 180.73134 94.571573"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="postite-nom.svg"
-   inkscape:export-filename="postite-nom.png"
+   sodipodi:docname="developpeuse.svg"
+   inkscape:export-filename="developpeuse.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,17 +27,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.5"
-     inkscape:cx="163"
-     inkscape:cy="181"
+     inkscape:zoom="0.44097222"
+     inkscape:cx="438.80315"
+     inkscape:cy="51.023622"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showgrid="false"
-     showguides="true" />
+     showgrid="false" />
   <defs
      id="defs1">
     <image
@@ -55,15 +54,103 @@
          height="3741092"
          id="rect1" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath1">
+      <path
+         d="M 0,4.3195986 H 323.96989 V 70.713429 H 0 Z"
+         id="path1-9" />
+    </clipPath>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-2"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath1-5">
+      <path
+         d="M 0,4.3195986 H 323.96989 V 70.713429 H 0 Z"
+         id="path1-5" />
+    </clipPath>
+    <pattern
+       id="EMFhbasepattern-1"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-11"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath1-2">
+      <path
+         d="M 0,4.799554 H 303.01184 V 138.22715 H 0 Z"
+         id="path1-7" />
+    </clipPath>
+    <pattern
+       id="EMFhbasepattern-6"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath1-4">
+      <path
+         d="M 0,4.799554 H 303.01184 V 138.22715 H 0 Z"
+         id="path1-2" />
+    </clipPath>
+    <pattern
+       id="EMFhbasepattern-3"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <clipPath
+       id="clip1-4">
+      <rect
+         x="0"
+         y="0"
+         width="3800475"
+         height="3741092"
+         id="rect1-8" />
+    </clipPath>
+    <clipPath
+       id="clip1-4-1">
+      <rect
+         x="0"
+         y="0"
+         width="3800475"
+         height="3741092"
+         id="rect1-8-5" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-20.372917,-53.495833)">
+     transform="translate(10.389584,-134.66892)">
     <g
        id="g3"
-       transform="matrix(0.30668857,0,0,0.11137148,20.372917,53.495833)">
+       transform="matrix(0.49766586,0,0,0.15007998,-10.827083,153.09583)">
       <g
          transform="matrix(1.04987e-4,0,0,1.04987e-4,0,0)"
          id="g2">
@@ -80,36 +167,74 @@
         </g>
       </g>
     </g>
-    <g
-       transform="matrix(0.48448336,0,0,0.6636604,-37.667492,-88.782865)"
-       id="g2-9">
-      <text
-         font-family="'Brush Script MT', 'Brush Script MT_MSFontService', sans-serif"
-         font-style="italic"
-         font-weight="400"
-         font-size="32px"
-         id="text1"
-         x="230.44612"
-         y="256"><tspan
-           sodipodi:role="line"
-           id="tspan2"
-           x="230.44612"
-           y="256"
-           style="text-align:center;text-anchor:middle">Sarah Bendavid</tspan></text>
-      <text
-         font-family="'Brush Script MT', 'Brush Script MT_MSFontService', sans-serif"
-         font-style="italic"
-         font-weight="400"
-         font-size="32px"
-         id="text2"
-         x="229.37894"
-         y="304.00198" />
-    </g>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:30.7343;fill:#488848;stroke-width:0.264583"
-       x="109.8"
-       y="168.59999"
-       id="text3" />
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:9.98434px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.624021"
+       x="-12.261992"
+       y="114.10495"
+       id="text2"
+       transform="scale(0.84729978,1.1802198)"><tspan
+         sodipodi:role="line"
+         x="-12.261992"
+         y="114.10495"
+         id="tspan2"
+         style="stroke-width:0.624021"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:9.98434px;font-family:Calibri;fill:#000000;stroke-width:0.624021"
+           id="tspan1"> </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#488848;fill-opacity:1;stroke-width:0.264583"
+       x="33.599998"
+       y="208.2"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="stroke-width:0.264583"
+         x="33.599998"
+         y="208.2">     </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:6.23603px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.389752"
+       x="55.548264"
+       y="231.38089"
+       id="text2-2"
+       transform="scale(1.070953,0.93374781)"><tspan
+         sodipodi:role="line"
+         x="55.548264"
+         y="231.38089"
+         id="tspan2-2"
+         style="stroke-width:0.389752"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:6.23603px;font-family:Calibri;fill:#000000;stroke-width:0.389752"
+           id="tspan1-1"> </tspan></tspan></text>
+    <g
+       clip-path="url(#clipEmfPath1-4)"
+       id="g14"
+       transform="matrix(0.66215229,0,0,1.4962057,-5.2590493,150.81928)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:26.0304px;line-height:181.941%;font-family:'Brush Script MT';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.975381"
+         transform="scale(1.1299662,0.8849822)"
+         x="8.5433369"
+         y="29.537569"
+         id="text14"><tspan
+           sodipodi:role="line"
+           x="8.5433369"
+           y="29.537569"
+           id="tspan4"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:26.0304px;font-family:'Brush Script MT';fill:#000000;stroke-width:0.975381">Developpeuse full-stack </tspan><tspan
+           sodipodi:role="line"
+           x="8.5433369"
+           y="76.897537"
+           id="tspan14"
+           style="stroke-width:0.975381"><tspan
+             dx="0"
+             dy="0"
+             style="font-style:normal;font-variant:normal;font-weight:400;font-size:15.6061px;font-family:Calibri;fill:#000000;stroke-width:0.975381"
+             id="tspan13"> </tspan></tspan></text>
+    </g>
   </g>
 </svg>

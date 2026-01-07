@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="postite-nom-english.svg"
+   sodipodi:docname="postite-age-EN.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,13 +26,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.44097222"
      inkscape:cx="400.25197"
-     inkscape:cy="561.25985"
+     inkscape:cy="475.08662"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2-0"
+     inkscape:current-layer="layer1"
      showgrid="false" />
   <defs
      id="defs1">
@@ -58,7 +58,7 @@
      id="layer1">
     <g
        id="g3"
-       transform="matrix(0.26458333,0,0,0.26458333,8.972917,54.095833)">
+       transform="matrix(0.15330522,0,0,0.15466011,11.372917,72.095833)">
       <g
          transform="matrix(1.04987e-4,0,0,1.04987e-4,0,0)"
          id="g2">
@@ -76,33 +76,28 @@
       </g>
     </g>
     <g
-       transform="matrix(0.39737525,0,0,0.73849382,-65.329296,-18.763268)"
-       id="g2-0">
+       transform="matrix(0.3374114,0,0,0.39954778,-50.062801,-25.225484)"
+       id="g2-9">
       <text
          font-family="'Brush Script MT', 'Brush Script MT_MSFontService', sans-serif"
          font-style="italic"
          font-weight="400"
-         font-size="27px"
-         id="text1"
-         x="234.03816"
-         y="153.37508">Sarah Bendavid</text>
-      <text
-         font-family="'Brush Script MT', 'Brush Script MT_MSFontService', sans-serif"
-         font-style="italic"
-         font-weight="400"
-         font-size="27px"
+         font-size="37.137px"
          id="text2"
-         x="245.6618"
-         y="189.1881">34 years old</text>
-    </g>
-    <g
-       transform="matrix(0.16902796,-0.27410076,0.39744177,0.43347196,-105.18259,99.07256)"
-       id="g1-2"
-       style="fill:#498a49;fill-opacity:1">
-      <path
-         d="M 643.787,417.82 426.386,300.384 427.812,297.745 645.213,415.18 Z M 426.28,303.737 420.5,295.5 l 10.057,0.318 z"
-         id="path1"
-         style="fill:#498a49;fill-opacity:1" />
+         x="240.23299"
+         y="333.50473"
+         transform="scale(1.0869633,0.91999425)"
+         style="stroke-width:1.16053"><tspan
+           sodipodi:role="line"
+           id="tspan26"
+           x="240.23299"
+           y="333.50473"
+           style="text-align:center;text-anchor:middle;stroke-width:1.16053">34</tspan><tspan
+           sodipodi:role="line"
+           x="240.23299"
+           y="379.92599"
+           style="text-align:center;text-anchor:middle;stroke-width:1.16053"
+           id="tspan1">years old</tspan></text>
     </g>
   </g>
 </svg>
