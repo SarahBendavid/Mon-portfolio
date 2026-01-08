@@ -212,6 +212,10 @@
     width: 105px;
   }
 
+  .postit2-fr {
+    transform: translateY(18px) translateX(44px);
+  }
+
   .postit3 {
     width: 115px;
   }
@@ -224,6 +228,15 @@
     width: 80px;
   }
 }
+
+@media (max-width: 400px) {
+
+  .postit1 {
+    width: 100px;
+    transform: translateY(-13px) translateX(29px);
+  }
+}
+
 
 
 
