@@ -51,6 +51,11 @@
     font-size: 14px;
   }
 
+  .accueil-page h1 {
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+  }
+
   .presentation {
     font-size: 14px;
   }
