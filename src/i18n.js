@@ -145,45 +145,45 @@ const resources = {
 
         item: {
           1: {
-            title: "mon titre",
-            date: "Créé en 2024",
+            title: "Jeu d'aventure",
+            date: "A venir",
             desc: "description",
           },
 
           2: {
-            title: "mon titre",
-            date: "Septembre 2023",
+            title: "Platforme Streaming",
+            date: "A venir",
             desc: "description",
           },
 
           3: {
-            title: "mon titre",
-            date: "Créé en Mai 2023",
+            title: "E-commerce",
+            date: "A venir",
             desc: "description",
           },
 
           4: {
             title: "Jeu du Morpion",
-            date: "Créé en Fevrier 2023",
+            date: "Fevrier 2023",
             desc: "Jeu classique que tout le monde connait (React.js)",
           },
 
           5: {
             title: "Carnet de bord",
-            date: "Créé en Octobre 2022",
+            date: "Octobre 2022",
             desc: "N'oubliez rien en créant votre liste de tâches !",
           },
 
           6: {
             title: "AzerType",
-            date: "Créé en Mai 2022",
+            date: "Mai 2022",
             desc: "Entrainez vous a taper plus vite sur le clavier!",
           },
 
           7: {
             title: "TotalTip",
-            date: "Créé en Mars 2022",
-            desc: "Calculez rapidement vos pourboires a payer.",
+            date: "Mars 2022",
+            desc: "Calcule rapide de vos pourboires.",
           },
 
           8: {
